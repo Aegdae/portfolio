@@ -50,6 +50,7 @@
     .photo-project img{
         margin-left: 12px;
         max-width: 95%;
+        object-fit: cover;
     }
 
     .photo-project img#API-Corinthians {
