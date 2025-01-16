@@ -26,6 +26,11 @@
         overflow-x: hidden;
     }
 
+    .photo img {
+        margin-top: 18px;
+        margin-bottom: 35px;
+    }
+
     .nav-bar {
         max-width: 100%;
         display: flex;
@@ -53,11 +58,6 @@
     .photo-project img#photo1 {
         object-fit: cover;
         object-position: center;
-    }
-
-    .photo-project img#API-Corinthians {
-        object-fit: cover;
-        object-position: left;
     }
 
     .text-project {
@@ -100,7 +100,7 @@ a {
 }
 
 .projects a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
@@ -152,8 +152,8 @@ a {
     transition: all 0.4s ease;
 }
 
-/* Main */
-/* About */
+/* Conteudo Principal Index */
+/* Sobre */
 .container {
     display: flex;
     justify-content: space-around;
@@ -169,23 +169,23 @@ a {
 
 .about h1 {
     font-size: 56px;
-    color: #dfdfdf;
+    color: #ffffff;
 }
 
 .about p {
-    color: #ffff;
+    color: #ffffff;
     margin-top: 15px;
     font-size: 26px;
     font-weight: 300;
 }
 
-/* photo */
+/* Foto */
 
 .photo img {
     width: 350px;
     height: 350px;
     border-radius: 60%;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
     image-rendering: auto;
@@ -213,8 +213,8 @@ a {
 .card{
     width: 400px;
     height: 350px;
-    background-color: #2895a8;
-    color: #fff;
+    background-color: #35aec4;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -252,7 +252,7 @@ a {
 }
 
 
-/* Projetos Site */
+/* Projetos informações */
 
 .container-project {
     display: flex;
@@ -294,7 +294,7 @@ a {
 }
 
 .text-project h1 {
-    color: #ffff;
+    color: #ffffff;
     font-size: 40px;
     margin-top: 30px;
 }
@@ -302,14 +302,14 @@ a {
 .text-project p {
     margin-top: 5px;
     font-size: 18px;
-    color: #ffff;
+    color: #ffffff;
     margin-left: 1px;
 }
 
 .text-project ul {
     margin-top: 5px;
     font-size: 18px;
-    color: #ffff;
+    color: #ffffff;
     margin-left: 20px;
 }
 
@@ -319,7 +319,7 @@ a {
 }
 
 .container-project a {
-    color: white;
+    color: #ffffff;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
