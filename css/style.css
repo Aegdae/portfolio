@@ -206,8 +206,8 @@ main.fade-in {
 
 
 .card{
-    width: 200px;
-    height: 190px;
+    width: 210px;
+    height: 210px;
     background-color: var(--card-color);
     color: var(--title-color);
     display: flex;
