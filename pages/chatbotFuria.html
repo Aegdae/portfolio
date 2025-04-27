@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicon_io/favicon-16x16.png"
+    />
+    <title>MPV - Rede Social</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="menu">
+          <a href="../index.html">Inicio</a>
+          <a href="https://aegdae.github.io/portfolio/pages/projects.html"
+            >Projetos</a
+          >
+          <a href="https://aegdae.github.io/portfolio/pages/about.html"
+            >Sobre</a
+          >
+        </div>
+        <div class="toggle-mode">
+          <button id="toggle-theme">
+            <i id="theme-icon" class="fas fa-sun"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-project">
+        <div class="video-project">
+          <video controls>
+            <source
+              src="../assets/Projects/ChatbotFURIA/chatBot.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div class="text-project">
+          <h1>Chatbot FURIA</h1>
+          <p>
+            Este projeto é um chatbot interativo desenvolvido para a FURIA,
+            focado em fornecer informações atualizadas sobre a equipe de
+            Counter-Strike 2 (CS2). A aplicação foi construída utilizando Python
+            com Flask no backend, permitindo uma integração eficaz com a API
+            Cohere para gerar respostas automáticas com base nas perguntas dos
+            usuários. O armazenamento de dados, como informações sobre jogadores
+            e partidas, é feito de forma eficiente no MongoDB.
+          </p>
+
+          <br />
+          <p>
+            No frontend, a interface foi construída utilizando Angular,
+            proporcionando uma navegação fluida e responsiva. O design foi
+            projetado para ser simples e eficiente, com o objetivo de oferecer
+            uma experiência agradável ao usuário em qualquer dispositivo. A
+            comunicação entre o frontend e o backend é feita por meio de uma API
+            RESTful, garantindo uma interação rápida e precisa.
+          </p>
+
+          <br />
+          <p>
+            A aplicação também inclui um sistema de histórico de conversa,
+            permitindo que o usuário veja as últimas interações com o chatbot.
+            Para garantir uma experiência personalizada, o chatbot é capaz de
+            fornecer informações detalhadas sobre os jogadores da FURIA,
+            próximos jogos, resultados recentes e muito mais.
+          </p>
+
+          <br />
+          <p>
+            O projeto segue a arquitetura MVC, o que facilita a manutenção e a
+            escalabilidade do código. Com versionamento utilizando Git e
+            hospedagem no GitHub, o código está organizado e pronto para futuras
+            melhorias.
+          </p>
+
+          <h1>Funcionalidades Principais</h1>
+          <ul>
+            <li>
+              Frontend: Interface dinâmica e responsiva desenvolvida com
+              Angular.
+            </li>
+            <li>
+              Backend: Implementado com Python e Flask, com integração à API
+              Cohere para respostas automáticas.
+            </li>
+            <li>
+              Armazenamento: MongoDB para gerenciar informações sobre jogadores
+              e partidas.
+            </li>
+            <li>
+              Histórico de Conversa: Sistema de armazenamento de mensagens para
+              consultas futuras.
+            </li>
+            <li>
+              Informações Personalizadas: Respostas detalhadas sobre jogadores,
+              próximos jogos e resultados recentes.
+            </li>
+          </ul>
+        </div>
+        <a href="https://github.com/Aegdae/chatbotFuria" target="_blank"
+          >GitHub</a
+        >
+      </div>
+    </main>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
